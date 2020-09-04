@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* MAIN CSS */
+
+body {
+    font-size: 120%;
+}
+
+.jumbotron {
+    background-image: url("/img/header.png") !important;
+    background-position: center center;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: cover;
+    display: inline-block;
+    margin-bottom: 0;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+h1 {
+    font-family: 'Heebo',
+        sans-serif;
+    font-weight: 800;
+}
+
+h2 {
+    font-family: 'Heebo',
+        sans-serif;
+    font-weight: 500;
+}
+
+.center {
+    text-align: center;
+}
+
+.docs {
+    text-align: left;
+}
+
+.project a {
+    text-decoration: none;
+}
+
+.newsletter {
+    margin-bottom: -25px;
+}
+
+
+.site-title-a {
+    text-decoration: none;
+}
+
+.navbar-link,
+.navbar-text {
+    text-decoration: none;
+}
+
+.topnav {
+    background-color: #2c2c2c;
+}
+
+/* Credit: https://css-tricks.com/examples/hrs/ */
+
+.separator {
+    overflow: visible;
+    /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+.separator:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
