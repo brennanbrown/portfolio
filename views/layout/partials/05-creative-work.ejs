@@ -1,5 +1,30 @@
 <section id="creative-work">
     <div class="row">
-        <h1>Creative Works: Under Construction.</h1>
+        <div class="col">
+            <h1 class="ml-5 text-xl-left text-md-center section-header">Creative Creatives</h1>
+        </div>
     </div>
+
+    <div class="row bg-light">
+        <% creative.forEach(function (creative) {%>
+        <div class="card col-xl-3 col-lg-4 col-md-6 col-sm-12 mx-auto">
+            <div class="card-img-top">
+                <img src="<%=creative.artwork%>" alt="<%=creative.name%>" class="img-thumbnail h-100">
+            </div>
+
+            <div class="card-body h-100">
+                <h2 class="card-title"><a href="<%=creative.hyperlink%>" class="text-dark"><%=creative.name%></a></h2>
+
+                <p class="card-text"><%=creative.description%></p>
+
+            </div>
+            <div class="card-footer text-center">
+                <a href="<%=creative.hyperlink%>"><button type="button" class="btn btn-sm btn-outline-primary mr-1">View
+                        Project</button></a>
+
+                <p class="text-muted text-right date mt-2"><%=creative.date%> - <%=creative.end%></p>
+            </div>
+
+        </div>
+        <%})%>
 </section>

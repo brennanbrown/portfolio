@@ -1,5 +1,27 @@
 <section id="blog">
     <div class="row">
-        <h1>Blog Posts: Under Construction.</h1>
+        <div class="col">
+            <h1 class="ml-5 text-xl-left text-md-center section-header">Blog Post</h1>
+        </div>
+    </div>
+
+    <div class="row bg-light">
+        <% blog.forEach(function (blog) {%>
+        <div class="card col-xl-3 col-lg-4 col-md-6 col-sm-12 mx-auto">
+            <div class="card-body">
+                <h2 class="card-title"><a href="..." class="text-dark"><%=blog.name%></a></h2>
+
+                <p class="card-text">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
+                    industries for
+                    previewing layouts
+                    and visual mockups.</p>
+
+                <a href="..."><button type="button" class="btn btn-light float-right font-weight-bold">View Post
+                        🡒</button></a>
+                <br />
+                <p class="text-muted mt-1 date">Posted: August 1st</p>
+            </div>
+        </div>
+        <%})%>
     </div>
 </section>

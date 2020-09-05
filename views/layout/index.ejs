@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html>
+    <%- include("./partials/head") %>
 
-<%- include("./partials/head") %>
+    <body>
+        <div id="overlay">
+            <div id="progstat"></div>
+            <div id="progress"></div>
+        </div>
+        <!-- NAVIGATION-->
+        <%- include("./partials/navigation") %>
 
-<body>
-  <%- include("./partials/navigation") %>
+        <!-- MAIN PAGE -->
+        <%- include(`../pages/${template}`) %>
 
-  <%- include(`../pages/${template}`) %>
+        <!-- FOOTER -->
+        <%- include("./partials/footer") %>
 
-  <%- include("./partials/footer") %>
-
-  <%- include("./partials/scripts") %>
-</body>
-
+        <!-- SCRIPTS -->
+        <%- include("./partials/scripts") %>
+    </body>
 </html>
