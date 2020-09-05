@@ -1,10 +1,3 @@
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-[![Twitter][twitter-shield]][twitter-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -15,7 +8,7 @@
   <h3 align="center">Brennan's Portfolio</h3>
 
   <p align="center">
-    My current web portfolio, built with Express and Node.
+    My current web portfolio, built with Express and Node.js
     <br />
     <a href="https://github.com/brennanbrown/portfolio/blob/master/README.md""><strong>Explore the docs »</strong></a>
     <br />
@@ -27,6 +20,14 @@
     <a href="https://github.com/brennanbrown/portfolio/issues">Request Feature</a>
   </p>
 </p>
+
+<!-- BADGES -->
+
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Code-Size][size-shield]][size-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
 <!-- TABLE OF CONTENTS -->
 
@@ -163,13 +164,11 @@ Project Link: [https://github.com/brennanbrown/portfolio](https://github.com/bre
 
 [forks-shield]: https://img.shields.io/github/forks/brennanbrown/portfolio?style=flat-square
 [forks-url]: https://github.com/brennanbrown/portfolio/network/members
-[stars-shield]: https://img.shields.io/github/stars/brennanbrown/portfolio
-[stars-url]: https://img.shields.io/github/stars/brennanbrown/portfolio?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/brennanbrown/portfolio?style=flat-square
+[stars-url]: https://img.shields.io/github/stars/brennanbrown/portfolio
 [issues-shield]: https://img.shields.io/github/issues/brennanbrown/portfolio?style=flat-square
 [issues-url]: https://github.com/brennanbrown/portfolio/issues
 [license-shield]: https://img.shields.io/github/license/brennanbrown/portfolio?style=flat-square
 [license-url]: https://github.com/brennanbrown/portfolio/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/brennankbrown
-[twitter-shield]: https://img.shields.io/twitter/url?label=Tweet%21&style=social&url=https%3A%2F%2Ftwitter.com%2Fbrennankbrown
-[twitter-url]: https://twitter.com/brennankbrown
+[size-shield]: https://img.shields.io/github/languages/code-size/brennanbrown/portfolio?style=flat-square
+[size-url]: https://github.com/brennanbrown/portfolio/pulse
