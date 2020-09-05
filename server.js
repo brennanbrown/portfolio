@@ -9,6 +9,16 @@ const createError = require("http-errors");
 const bodyParser = require("body-parser");
 const csp = require("helmet-csp");
 
+// Adding business logic to the server.
+const ProjectService = require("./services/ProjectService");
+const BlogService = require("./services/BlogService");
+const CreativeService = require("./services/CreativeService");
+
+// Create instances of the above classes.
+const projectService = new ProjectService("./data/project.json");
+const blogService = new BlogService("./data/blog.json");
+const creativeService = new CreativeService("./data/creative.json");
+
 const routes = require("./routes");
 
 
@@ -52,8 +62,7 @@ app.set("view engine", "ejs");
 // Expects the template to be in the "views" folder
 app.set("views", path.join(__dirname, "./views"));
 
-app.locals.siteName = "Untitled Portfolio";
-
+app.locals.siteName = "Brennan K. Brown";
 
 // Before routing handlers are defined, there needs to be
 // "app.use" and the middleware called "express.static"
@@ -62,7 +71,11 @@ app.use(express.static(path.join(__dirname, "./src")));
 app.use(
     "/",
     // Will pass down the service instances to the routes. 
-    routes({})
+    routes({
+        projectService: projectService,
+        blogService: blogService,
+        creativeService: creativeService
+    })
 );
 
 
