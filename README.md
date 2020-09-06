@@ -42,7 +42,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+- [Acknowledgements and Resources](#acknowledgements-and-resources)
 
 <!-- ABOUT THE PROJECT -->
 
@@ -140,24 +140,28 @@ Project Link: [https://github.com/brennanbrown/portfolio](https://github.com/bre
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## Acknowledgements
+## Acknowledgements and Resources
 
--   [README Template](https://github.com/othneildrew/Best-READ.ME-Template)
--   [Prettify](https://www.npmjs.com/package/prettify)
--   [ESLint](https://eslint.org/)
--   [auto0 .gitignore](https://gist.github.com/dan-auth0/2fb996dc8080eaae0900100bf1c3fa26)
--   [Favicon.io](https://favicon.io/)
--   [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
--   [Img Shields](https://shields.io)
--   [Choose an Open Source License](https://choosealicense.com)
--   [GitHub Pages](https://pages.github.com)
--   [Animate.css](https://daneden.github.io/animate.css)
--   [Loaders.css](https://connoratherton.com/loaders)
--   [Slick Carousel](https://kenwheeler.github.io/slick)
--   [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
--   [Sticky Kit](http://leafo.net/sticky-kit)
--   [JVectorMap](http://jvectormap.com)
--   [Font Awesome](https://fontawesome.com)
+**Project Management:**
+
+- [README Template](https://github.com/othneildrew/Best-READ.ME-Template)
+- [Prettify](https://www.npmjs.com/package/prettify)
+- [ESLint](https://eslint.org/)
+- [auto0 .gitignore](https://gist.github.com/dan-auth0/2fb996dc8080eaae0900100bf1c3fa26)
+- [Favicon.io](https://favicon.io/)
+- [Img Shields](https://shields.io)
+- [Choose an Open Source License](https://choosealicense.com)
+
+**Design:**
+
+- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+- [Animate.css](https://daneden.github.io/animate.css)
+- [Loaders.css](https://connoratherton.com/loaders)
+- [Slick Carousel](https://kenwheeler.github.io/slick)
+- [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
+- [Sticky Kit](http://leafo.net/sticky-kit)
+- [JVectorMap](http://jvectormap.com)
+- [Font Awesome](https://fontawesome.com)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
