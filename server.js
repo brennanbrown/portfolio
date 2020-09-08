@@ -48,6 +48,7 @@ app.use(
     })
 );
 
+
 app.use(bodyParser.urlencoded({
     extended: true
 }));
@@ -118,7 +119,7 @@ app.use((err, request, response, next) => {
 app.use(csp({
     directives: {
         defaultSrc: ["'self'"],
-        styleSrc: ["'self'", "maxcdn.bootstrapcdn.com", "fonts.googleapis.com"]
+        styleSrc: ["'self'", "maxcdn.bootstrapcdn.com", "fonts.googleapis.com", "api.segment.io"]
     }
 }));
 
