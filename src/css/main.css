@@ -86,18 +86,6 @@ footer a:hover {
     color: #555;
 }
 
-.card {
-    border: none;
-}
-
-.center {
-    text-align: center;
-}
-
-.docs {
-    text-align: left;
-}
-
 .project a {
     text-decoration: none;
 }
@@ -148,4 +136,6 @@ footer {
 
 .section-header {
     font-size: 300%;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }

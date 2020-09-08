@@ -1,25 +1,29 @@
 <section id="blog">
     <div class="row">
         <div class="col">
-            <h1 class="ml-5 text-xl-left text-md-center section-header">Blog Post</h1>
+            <h1 class="ml-5 my-auto text-xl-left text-md-center section-header">
+                <i class="far fa-edit"></i> Blog Posts
+            </h1>
         </div>
     </div>
 
-    <div class="row bg-light">
+    <div class="row ">
         <% blog.forEach(function (blog) {%>
-        <div class="card col-xl-3 col-lg-4 col-md-6 col-sm-12 mx-auto">
-            <div class="card-body">
-                <h2 class="card-title"><a href="..." class="text-dark"><%=blog.name%></a></h2>
+        <div class="card col-xl-3 col-lg-4 col-md-6 col-sm-12 mx-auto <%=blog.visibility%>">
+            <div class="card-body mx-3">
+                <h2 class="card-title"><a href="<%=blog.hyperlink%>" class="text-dark">
+                        <%=blog.name%>
+                    </a></h2>
 
-                <p class="card-text">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
-                    industries for
-                    previewing layouts
-                    and visual mockups.</p>
+                <p class="card-text">
+                    <%=blog.description%>
+                </p>
 
-                <a href="..."><button type="button" class="btn btn-light float-right font-weight-bold">View Post
-                        🡒</button></a>
+                <a href="<%=blog.hyperlink%>"><button type="button" class="btn btn-light float-right font-weight-bold">
+                        View Post 🡒
+                    </button></a>
                 <br />
-                <p class="text-muted mt-1 date">Posted: August 1st</p>
+                <p class="text-muted mt-1 date">Posted: <%=blog.date%></p>
             </div>
         </div>
         <%})%>
