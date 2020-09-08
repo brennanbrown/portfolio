@@ -9,7 +9,7 @@
             "hyperlink": "https://brennanbrown.github.io/javascript-projects/flashcards/",
             "source": "https://github.com/brennanbrown/javascript-projects/tree/master/flashcards",
             "docs": "https://github.com/brennanbrown/javascript-projects/blob/master/flashcards/README.md",
-            "visibility": ""
+            "visibility": "d-block"
         },
         {
             "name": "Sorting Tables",
@@ -20,7 +20,7 @@
             "hyperlink": "https://brennanbrown.github.io/javascript-projects/sortable-tables/",
             "source": "https://github.com/brennanbrown/javascript-projects/tree/master/sortable-tables",
             "docs": "https://github.com/brennanbrown/javascript-projects/blob/master/sortable-tables/README.md",
-            "visibility": ""
+            "visibility": "d-none d-md-block"
         },
         {
             "name": "School Sign-Up",
@@ -31,7 +31,7 @@
             "hyperlink": "https://flask-brennan.herokuapp.com/",
             "source": "https://github.com/brennanbrown/evolveu/tree/flask",
             "docs": "https://github.com/brennanbrown/evolveu/blob/flask/NOTES.md",
-            "visibility": ""
+            "visibility": "d-block"
         },
         {
             "name": "Rebound Game",
@@ -42,7 +42,7 @@
             "hyperlink": "https://brennanbrown.github.io/javascript-projects/rebound-game/",
             "source": "https://github.com/brennanbrown/javascript-projects/tree/master/rebound-game",
             "docs": "https://github.com/brennanbrown/javascript-projects/blob/master/rebound-game/README.md",
-            "visibility": ""
+            "visibility": "d-block"
         },
         {
             "name": "Untitled Duck Project",
@@ -53,7 +53,7 @@
             "hyperlink": "https://duck-project.herokuapp.com/",
             "source": "https://github.com/brennanbrown/duck-project",
             "docs": "https://github.com/brennanbrown/notes/blob/master/web-dev/express-node-fundamentals.md",
-            "visibility": ""
+            "visibility": "d-none d-lg-block"
         },
         {
             "name": "Tkinter Weather App",
@@ -64,7 +64,7 @@
             "hyperlink": "https://github.com/brennanbrown/python-projects",
             "source": "https://github.com/brennanbrown/python-projects/tree/master/src/gui-weather",
             "docs": "https://github.com/brennanbrown/notes/blob/master/programming/python-tdd.md",
-            "visibility": ""
+            "visibility": "d-none d-md-block"
         },
         {
             "name": "React Basics",
@@ -75,7 +75,7 @@
             "hyperlink": "https://react-brennan.herokuapp.com/",
             "source": "https://github.com/brennanbrown/evolveu/tree/react",
             "docs": "https://github.com/brennanbrown/notes/blob/master/web-dev/react-fundamentals.md",
-            "visibility": ".d-none .d-lg-block .d-xl-none"
+            "visibility": "d-none d-lg-block d-xl-none"
         },
         {
             "name": "Django Showcase",
@@ -86,7 +86,7 @@
             "hyperlink": "https://django.life",
             "source": "https://github.com/brennanbrown/django-project",
             "docs": "https://github.com/brennanbrown/django-project/blob/master/NOTES.md",
-            "visibility": ""
+            "visibility": "d-block"
         },
         {
             "name": "Code Challenges",
@@ -97,7 +97,7 @@
             "hyperlink": "https://www.codewars.com/users/brennanbrown",
             "source": "https://github.com/brennanbrown/code-challenges",
             "docs": "https://github.com/brennanbrown/notes",
-            "visibility": ""
+            "visibility": "d-none d-lg-block"
         }
     ]
 }

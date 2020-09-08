@@ -31,7 +31,8 @@ class CreativeService {
                 end: creative.end,
                 description: creative.description,
                 hyperlink: creative.hyperlink,
-                artwork: creative.artwork
+                artwork: creative.artwork,
+                visibility: creative.visibility
             };
         });
     }

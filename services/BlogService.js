@@ -26,12 +26,10 @@ class BlogService {
         return data.map(blog => {
             return {
                 name: blog.name,
-                topic: blog.topic,
                 date: blog.date,
-                end: blog.end,
                 description: blog.description,
                 hyperlink: blog.hyperlink,
-                artwork: blog.artwork
+                visibility: blog.visibility
             };
         });
     }
