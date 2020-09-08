@@ -1,0 +1,60 @@
+{
+    "blog": [
+        {
+            "name": "My Coding Journey",
+            "date": "September 3rd, 2020",
+            "description": "A look back of the past decade of my life, and how I became passionate about coding and fell in love with technology completely by accident.",
+            "hyperlink": "https://dev.to/brennan/my-coding-journey-32h6",
+            "visibility": "test"
+        },
+        {
+            "name": "Reclaiming The Internet",
+            "date": "August 24th, 2020",
+            "description": "The days of AngelFire, GeoCities, even the mere customization options of MySpace or LiveJournal have been effectively done away with for the uniform, sanitized design of the small handful of places people still visit.",
+            "hyperlink": "https://dev.to/brennan/reclaiming-the-internet-3jeh",
+            "visibility": "test"
+        },
+        {
+            "name": "Establishing Your Identity",
+            "date": "August 20th 2020",
+            "description": "Four concepts you should keep in mind when making your portfolio: For web developers and other creative professionals, a great portfolio can make the difference between landing the job and getting passed over. ",
+            "hyperlink": "https://dev.to/brennan/establishing-your-identity-449m",
+            "visibility": "test"
+        },
+        {
+            "name": "Non-technical Skills for Developers ",
+            "date": "August 17th, 2020",
+            "description": "Trying your best to remember the human, too! Discussion on various personal and non-technical skills that often get neglected within the field.",
+            "hyperlink": "https://dev.to/brennan/non-technical-skills-for-developers-1a2h",
+            "visibility": "test"
+        },
+        {
+            "name": "Creating a Portfolio with Node.js ",
+            "date": "September 3rd, 2020",
+            "description": "An indepth look and explanation into my work and process developing my original portfolio, this work is meant to exemplify the pedagogy of Project-based Learning.",
+            "hyperlink": "https://dev.to/brennan/my-duck-portfolio-2mmh",
+            "visibility": "test"
+        },
+        {
+            "name": "A Comprehensive Guide to Self-Learning",
+            "date": "March 3rd, 2019",
+            "description": "With this new paradigm of learning, there comes the need to figuring out new methods of understanding and synthesising what is being learned.",
+            "hyperlink": "https://wandernotebook.com/a-comprehensive-guide-to-self-learning/",
+            "visibility": "test"
+        },
+        {
+            "name": "Disrupting the Attention-based Economy",
+            "date": "January 8th, 2020",
+            "description": "We live in an attention-based economy. Companies and people can only sell you products and services if they first have your attention, after all..",
+            "hyperlink": "https://wandernotebook.com/disrupting-the-attention-based-economy/",
+            "visibility": "test"
+        },
+        {
+            "name": "My Writing Process",
+            "date": "November 3rd, 2019",
+            "description": "Writing is a mysterious and elusive artform. Whether it’s technical, creative, or copy — good writing contains something that cannot be taught. A balance needs to be struck between the formless idea and the formulaic structure.",
+            "hyperlink": "https://wandernotebook.com/my-writing-process/",
+            "visibility": "test"
+        }
+    ]
+}

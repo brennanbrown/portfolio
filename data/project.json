@@ -1,0 +1,103 @@
+{
+    "project": [
+        {
+            "name": "Flashcards Game",
+            "language": "JavaScript",
+            "image": "projects/flashcards-project.png",
+            "date": "August 2020",
+            "description": "A simple, interactive flashcards game designed to help learn concepts of JavaScript, built while focusing on propagation management, binding, prototypical inheritence, and the keyword 'this'.",
+            "hyperlink": "https://brennanbrown.github.io/javascript-projects/flashcards/",
+            "source": "https://github.com/brennanbrown/javascript-projects/tree/master/flashcards",
+            "docs": "https://github.com/brennanbrown/javascript-projects/blob/master/flashcards/README.md",
+            "visibility": ""
+        },
+        {
+            "name": "Sorting Tables",
+            "language": "JavaScript",
+            "image": "projects/algorithm-project.png",
+            "date": "August 2020",
+            "description": "A demonstration of sorting and filtering through a table of data (in this case, world statistics) using a series of different algorithms and sort methods, as well as testing and comparing their performances",
+            "hyperlink": "https://brennanbrown.github.io/javascript-projects/sortable-tables/",
+            "source": "https://github.com/brennanbrown/javascript-projects/tree/master/sortable-tables",
+            "docs": "https://github.com/brennanbrown/javascript-projects/blob/master/sortable-tables/README.md",
+            "visibility": ""
+        },
+        {
+            "name": "School Sign-Up",
+            "language": "Flask / NoSQL",
+            "image": "projects/flask-project.png",
+            "date": "June 2020",
+            "description": "A mock-up of a school registration, with the basics of a full-stack project. It includes example uses of the Jinga template engine, Werkseug WSGI, as well as implimentation with a MongoDB NoSQL database.",
+            "hyperlink": "https://flask-brennan.herokuapp.com/",
+            "source": "https://github.com/brennanbrown/evolveu/tree/flask",
+            "docs": "https://github.com/brennanbrown/evolveu/blob/flask/NOTES.md",
+            "visibility": ""
+        },
+        {
+            "name": "Rebound Game",
+            "language": "JavaScript",
+            "image": "projects/rebound-project.png",
+            "date": "August 2020",
+            "description": "The fun, simple game of Rebound created to explore game creation within JavaScript, looking at handling user input, pure CSS styling, object interaction, and creating a simple physics engine.",
+            "hyperlink": "https://brennanbrown.github.io/javascript-projects/rebound-game/",
+            "source": "https://github.com/brennanbrown/javascript-projects/tree/master/rebound-game",
+            "docs": "https://github.com/brennanbrown/javascript-projects/blob/master/rebound-game/README.md",
+            "visibility": ""
+        },
+        {
+            "name": "Untitled Duck Project",
+            "language": "Node.js",
+            "image": "projects/duck-project.png",
+            "date": "May 2020",
+            "description": "A collaboration between Duck Labs and EvolveU aiming to teach students the full spectrum of web development, starting with the UX of the front-end, and ending with database and server communcation of the back-end.",
+            "hyperlink": "https://duck-project.herokuapp.com/",
+            "source": "https://github.com/brennanbrown/duck-project",
+            "docs": "https://github.com/brennanbrown/notes/blob/master/web-dev/express-node-fundamentals.md",
+            "visibility": ""
+        },
+        {
+            "name": "Tkinter Weather App",
+            "language": "Python / Tkinker",
+            "image": "projects/python-project.png",
+            "date": "July 2020",
+            "description": "A GUI weather application with Tkinter with API functionality using analytics from NOAA Services and OpenWeatherMap, in addition to using smtplib to e-mail the generated HTML report.",
+            "hyperlink": "https://github.com/brennanbrown/python-projects",
+            "source": "https://github.com/brennanbrown/python-projects/tree/master/src/gui-weather",
+            "docs": "https://github.com/brennanbrown/notes/blob/master/programming/python-tdd.md",
+            "visibility": ""
+        },
+        {
+            "name": "React Basics",
+            "language": "React.js",
+            "image": "projects/react-project.png",
+            "date": "May 2020",
+            "description": "This website contains the early work I did with EvolveU: The basics of creating web pages with the React framework. It contains the 12 Main Concepts, migrating from vanilla JS, and usage of hooks and context.",
+            "hyperlink": "https://react-brennan.herokuapp.com/",
+            "source": "https://github.com/brennanbrown/evolveu/tree/react",
+            "docs": "https://github.com/brennanbrown/notes/blob/master/web-dev/react-fundamentals.md",
+            "visibility": ".d-none .d-lg-block .d-xl-none"
+        },
+        {
+            "name": "Django Showcase",
+            "language": "Django / MySQL",
+            "image": "projects/django-project.png",
+            "date": "July 2020",
+            "description": "A full-stack project built to showcase and display the benefits of using Django for your project! Created with a PostgreSQL database, using Selenium for tests, and deployed in real-time. Under construction.",
+            "hyperlink": "https://django.life",
+            "source": "https://github.com/brennanbrown/django-project",
+            "docs": "https://github.com/brennanbrown/django-project/blob/master/NOTES.md",
+            "visibility": ""
+        },
+        {
+            "name": "Code Challenges",
+            "language": "Various",
+            "image": "projects/code-project.png",
+            "date": "Ongoing",
+            "description": "Solutions with tests, tips and tutorials for Codewars katas. Programming challenges to improve your skills. The word 'kata' comes from the conceptual idea associated with training in martial arts.",
+            "hyperlink": "https://www.codewars.com/users/brennanbrown",
+            "source": "https://github.com/brennanbrown/code-challenges",
+            "docs": "https://github.com/brennanbrown/notes",
+            "visibility": ""
+        }
+    ]
+}
