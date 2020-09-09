@@ -45,13 +45,25 @@ body {
     font-size: 120%;
 }
 
-.jumbotron {
+.jumbotron,
+footer {
     background-image: url("/img/header.png") !important;
     background-position: center center;
     background-repeat: none;
     background-attachment: fixed;
     background-size: cover;
     display: inline-block;
+}
+
+@media only screen and (max-width: 1028px) {
+
+    .jumbotron,
+    footer {
+        background-attachment: scroll !important;
+    }
+}
+
+.jumbotron {
     margin-bottom: 0;
     padding-top: 150px;
     padding-bottom: 120px;
@@ -86,14 +98,6 @@ footer a:hover {
     color: #555;
 }
 
-.project a {
-    text-decoration: none;
-}
-
-.newsletter {
-    margin-bottom: -25px;
-}
-
 .site-title-a {
     text-decoration: none;
 }
@@ -113,25 +117,6 @@ footer a:hover {
 
 .typeform-widget {
     margin-bottom: -23px;
-}
-
-.break {
-    background-image: url("/img/header.png") !important;
-    background-position: center center;
-    background-repeat: none;
-    background-attachment: fixed;
-    background-size: cover;
-    display: inline-block;
-    height: 20px;
-    width: 100%;
-}
-
-footer {
-    background-image: url("/img/header.png") !important;
-    background-position: center center;
-    background-repeat: none;
-    background-attachment: fixed;
-    background-size: cover;
 }
 
 .section-header {
