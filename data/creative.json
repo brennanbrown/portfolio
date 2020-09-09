@@ -28,7 +28,7 @@
             "description": "A few samples of the meals that I cooked and baked during my time as a Sous Chef at the Rotary Flames House, my job for the past four years before transitioning into the tech sector currently.",
             "hyperlink": "https://goodfood.ca/",
             "artwork": "artwork/fo.jpg",
-            "visibility": "d-none d-lg-block d-xl-none"
+            "visibility": "d-none d-lg-block d-xl-none d-sm-none d-xs-none"
         },
         {
             "name": "Warsaw Mountain",

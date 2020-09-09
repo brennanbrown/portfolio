@@ -97,7 +97,7 @@
             "hyperlink": "https://www.codewars.com/users/brennanbrown",
             "source": "https://github.com/brennanbrown/code-challenges",
             "docs": "https://github.com/brennanbrown/notes",
-            "visibility": "d-none d-lg-block"
+            "visibility": "d-none d-lg-block d-md-none"
         }
     ]
 }
