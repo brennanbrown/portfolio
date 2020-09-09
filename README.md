@@ -23,11 +23,20 @@
 
 <!-- BADGES -->
 
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Code-Size][size-shield]][size-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+<p align="center">
+<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/brennanbrown/portfolio"> 
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/brennanbrown/portfolio"> 
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/brennanbrown/portfolio"> 
+<img alt="GitHub issues" src="https://img.shields.io/github/issues/brennanbrown/portfolio"> 
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/brennanbrown/portfolio"> 
+<img alt="GitHub license" src="https://img.shields.io/github/license/brennanbrown/portfolio"> 
+<img alt="Website" src="https://img.shields.io/website?down_color=red&down_message=Offline%21&label=Status&up_color=darkgreen&up_message=Online%21&url=https%3A%2F%2Fbrennanbrown.ca">
+<br />
+<img alt="GitHub followers" src="https://img.shields.io/github/followers/brennanbrown?label=Follow%20Me%21&style=social"> 
+<img alt="GitHub watchers" src="https://img.shields.io/github/watchers/brennanbrown/portfolio?label=Watch%21&style=social"> 
+<img alt="GitHub stars" src="https://img.shields.io/github/stars/brennanbrown/portfolio?label=Star%21&style=social"> 
+<img alt="GitHub forks"src="https://img.shields.io/github/forks/brennanbrown/portfolio?label=Fork%21&style=social">
+</p>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -162,17 +171,4 @@ Project Link: [https://github.com/brennanbrown/portfolio](https://github.com/bre
 - [Sticky Kit](http://leafo.net/sticky-kit)
 - [JVectorMap](http://jvectormap.com)
 - [Font Awesome](https://fontawesome.com)
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[forks-shield]: https://img.shields.io/github/forks/brennanbrown/portfolio?style=flat-square
-[forks-url]: https://github.com/brennanbrown/portfolio/network/members
-[stars-shield]: https://img.shields.io/github/stars/brennanbrown/portfolio?style=flat-square
-[stars-url]: https://img.shields.io/github/stars/brennanbrown/portfolio
-[issues-shield]: https://img.shields.io/github/issues/brennanbrown/portfolio?style=flat-square
-[issues-url]: https://github.com/brennanbrown/portfolio/issues
-[license-shield]: https://img.shields.io/github/license/brennanbrown/portfolio?style=flat-square
-[license-url]: https://github.com/brennanbrown/portfolio/blob/master/LICENSE.txt
-[size-shield]: https://img.shields.io/github/languages/code-size/brennanbrown/portfolio?style=flat-square
-[size-url]: https://github.com/brennanbrown/portfolio/pulse
+- [Icons8 Upscaler](https://icons8.com/upscaler)

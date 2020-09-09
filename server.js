@@ -21,9 +21,8 @@ const creativeService = new CreativeService("./data/creative.json");
 
 const routes = require("./routes");
 
-
 /**
- * App Variables 
+ * App Variables
  */
 
 const app = express();
@@ -32,13 +31,12 @@ const port = process.env.PORT || "3000";
 // Required if running through reverse proxy like NGINX
 app.set("trust proxy", 1);
 
-
 /**
  * Middleware
  */
 
 // Request the lifecycle, to fetch cookies that are sent with
-// the headers that come from the client and parse them 
+// the headers that come from the client and parse them
 // and also then set them on the request object.
 app.use(
     cookieSession({
@@ -48,10 +46,11 @@ app.use(
     })
 );
 
-
-app.use(bodyParser.urlencoded({
-    extended: true
-}));
+app.use(
+    bodyParser.urlencoded({
+        extended: true,
+    })
+);
 app.use(bodyParser.json());
 
 /**
@@ -71,14 +70,13 @@ app.use(express.static(path.join(__dirname, "./src")));
 
 app.use(
     "/",
-    // Will pass down the service instances to the routes. 
+    // Will pass down the service instances to the routes.
     routes({
         projectService: projectService,
         blogService: blogService,
-        creativeService: creativeService
+        creativeService: creativeService,
     })
 );
-
 
 /**
  * Error Handling
@@ -111,17 +109,23 @@ app.use((err, request, response, next) => {
     response.render("error");
 });
 
-
 /**
  * Content Security Policy
  */
 
-app.use(csp({
-    directives: {
-        defaultSrc: ["'self'"],
-        styleSrc: ["'self'", "maxcdn.bootstrapcdn.com", "fonts.googleapis.com", "api.segment.io"]
-    }
-}));
+app.use(
+    csp({
+        directives: {
+            defaultSrc: ["'self'"],
+            styleSrc: [
+                "'self'",
+                "maxcdn.bootstrapcdn.com",
+                "fonts.googleapis.com",
+                "api.segment.io",
+            ],
+        },
+    })
+);
 
 /**
  * Server Activation
