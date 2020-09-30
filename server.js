@@ -30,10 +30,22 @@ const port = process.env.PORT || "3000";
 
 // Required if running through reverse proxy like NGINX
 app.set("trust proxy", 1);
+app.enable("trust proxy");
 
 /**
  * Middleware
  */
+
+// Solution taken from: https://stackoverflow.com/questions/8605720/how-to-force-ssl-https-in-express-js
+function requireHTTPS(req, res, next) {
+    // The 'x-forwarded-proto' check is for Heroku
+    if (!req.secure && req.get('x-forwarded-proto') !== 'https' && process.env.NODE_ENV !== "development") {
+        return res.redirect('https://' + req.get('host') + req.url);
+    }
+    next();
+}
+
+app.use(requireHTTPS);
 
 // Request the lifecycle, to fetch cookies that are sent with
 // the headers that come from the client and parse them
