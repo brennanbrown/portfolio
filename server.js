@@ -47,6 +47,17 @@ function requireHTTPS(req, res, next) {
 
 app.use(requireHTTPS);
 
+// Solution taken from: https://mindthecode.com/blog/how-to-redirect-www-to-non-www-in-your-express-app
+function redirectWwwTraffic(req, res, next) {
+    if (req.headers.host.slice(0, 4) === "www.") {
+        var newHost = req.headers.host.slice(4);
+        return res.redirect(301, req.protocol + "://" + newHost + req.originalUrl);
+    }
+    next();
+};
+
+app.use(redirectWwwTraffic);
+
 // Request the lifecycle, to fetch cookies that are sent with
 // the headers that come from the client and parse them
 // and also then set them on the request object.
