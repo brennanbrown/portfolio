@@ -96,7 +96,7 @@
             "description": "Solutions with tests, tips and tutorials for Codewars katas. Programming challenges to improve your skills. The word 'kata' comes from the conceptual idea associated with training in martial arts.",
             "hyperlink": "https://www.codewars.com/users/brennanbrown",
             "source": "https://github.com/brennanbrown/code-challenges",
-            "docs": "https://github.com/brennanbrown/notes",
+            "docs": "https://brennanbrown.github.io/notes",
             "visibility": "d-none d-lg-block d-md-none"
         }
     ]
