@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/brennanbrown/portfolio">
-    <img src="src/img/logo.png" alt="Logo" width="80" height="80">
+    <img src="src/img/logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Brennan's Portfolio</h3>
@@ -57,7 +57,7 @@
 
 ## About The Project
 
-![Project Screenshot](/src/screenshot.png "Screenshot of Portfolio")
+![Project Screenshot](/src/screenshot.jpg "Screenshot of Portfolio")
 
 This is my portfolio, showcasing my work as a web developer and writer. Featuring my most recent coding projects, blog posts, and how best to contact me if you're interested in collaboration! It is a single-page design, with emphasis on typography and accessibility. It's based off of an older project I did, [Duck Project](https://github.com/brennanbrown/duck-project).
 

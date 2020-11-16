@@ -3,7 +3,7 @@
         {
             "name": "Flashcards Game",
             "language": "JavaScript",
-            "image": "projects/flashcards-project.png",
+            "image": "projects/flashcards-project.jpg",
             "date": "August 2020",
             "description": "A simple, interactive flashcards game designed to help learn concepts of JavaScript, built while focusing on propagation management, binding, prototypical inheritence, and the keyword 'this'.",
             "hyperlink": "https://brennanbrown.github.io/javascript-projects/flashcards/",
@@ -14,7 +14,7 @@
         {
             "name": "Sorting Tables",
             "language": "JavaScript",
-            "image": "projects/algorithm-project.png",
+            "image": "projects/algorithm-project.jpg",
             "date": "August 2020",
             "description": "A demonstration of sorting and filtering through a table of data (in this case, world statistics) using a series of different algorithms and sort methods, as well as testing and comparing their performances",
             "hyperlink": "https://brennanbrown.github.io/javascript-projects/sortable-tables/",
@@ -25,7 +25,7 @@
         {
             "name": "School Sign-Up",
             "language": "Flask / NoSQL",
-            "image": "projects/flask-project.png",
+            "image": "projects/flask-project.jpg",
             "date": "June 2020",
             "description": "A mock-up of a school registration, with the basics of a full-stack project. It includes example uses of the Jinga template engine, Werkseug WSGI, as well as implimentation with a MongoDB NoSQL database.",
             "hyperlink": "https://flask-brennan.herokuapp.com/",
@@ -36,7 +36,7 @@
         {
             "name": "Rebound Game",
             "language": "JavaScript",
-            "image": "projects/rebound-project.png",
+            "image": "projects/rebound-project.jpg",
             "date": "August 2020",
             "description": "The fun, simple game of Rebound created to explore game creation within JavaScript, looking at handling user input, pure CSS styling, object interaction, and creating a simple physics engine.",
             "hyperlink": "https://brennanbrown.github.io/javascript-projects/rebound-game/",
@@ -47,7 +47,7 @@
         {
             "name": "Untitled Duck Project",
             "language": "Node.js",
-            "image": "projects/duck-project.png",
+            "image": "projects/duck-project.jpg",
             "date": "May 2020",
             "description": "A collaboration between Duck Labs and EvolveU aiming to teach students the full spectrum of web development, starting with the UX of the front-end, and ending with database and server communcation of the back-end.",
             "hyperlink": "https://duck-project.herokuapp.com/",
@@ -58,7 +58,7 @@
         {
             "name": "Tkinter Weather App",
             "language": "Python / Tkinker",
-            "image": "projects/python-project.png",
+            "image": "projects/python-project.jpg",
             "date": "July 2020",
             "description": "A GUI weather application with Tkinter with API functionality using analytics from NOAA Services and OpenWeatherMap, in addition to using smtplib to e-mail the generated HTML report.",
             "hyperlink": "https://github.com/brennanbrown/python-projects",
@@ -69,7 +69,7 @@
         {
             "name": "React Basics",
             "language": "React.js",
-            "image": "projects/react-project.png",
+            "image": "projects/react-project.jpg",
             "date": "May 2020",
             "description": "This website contains the early work I did with EvolveU: The basics of creating web pages with the React framework. It contains the 12 Main Concepts, migrating from vanilla JS, and usage of hooks and context.",
             "hyperlink": "https://react-brennan.herokuapp.com/",
@@ -80,7 +80,7 @@
         {
             "name": "Django Showcase",
             "language": "Django / MySQL",
-            "image": "projects/django-project.png",
+            "image": "projects/django-project.jpg",
             "date": "July 2020",
             "description": "A full-stack project built to showcase and display the benefits of using Django for your project! Created with a PostgreSQL database, using Selenium for tests, and deployed in real-time. Under construction.",
             "hyperlink": "https://django.life",
@@ -91,7 +91,7 @@
         {
             "name": "Code Challenges",
             "language": "Various",
-            "image": "projects/code-project.png",
+            "image": "projects/code-project.jpg",
             "date": "Ongoing",
             "description": "Solutions with tests, tips and tutorials for Codewars katas. Programming challenges to improve your skills. The word 'kata' comes from the conceptual idea associated with training in martial arts.",
             "hyperlink": "https://www.codewars.com/users/brennanbrown",
