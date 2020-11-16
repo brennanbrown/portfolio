@@ -47,7 +47,7 @@ body {
 
 .jumbotron,
 footer {
-    background-image: url("/img/header.png") !important;
+    background-image: url("/img/header.jpg") !important;
     background-position: center center;
     background-repeat: none;
     background-attachment: fixed;
