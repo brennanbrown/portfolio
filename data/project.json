@@ -45,15 +45,15 @@
             "visibility": "d-block"
         },
         {
-            "name": "Untitled Duck Project",
-            "language": "Node.js",
-            "image": "projects/duck-project.jpg",
-            "date": "May 2020",
-            "description": "A collaboration between Duck Labs and EvolveU aiming to teach students the full spectrum of web development, starting with the UX of the front-end, and ending with database and server communcation of the back-end.",
-            "hyperlink": "https://duck-project.herokuapp.com/",
-            "source": "https://github.com/brennanbrown/duck-project",
-            "docs": "https://github.com/brennanbrown/notes/blob/master/web-dev/express-node-fundamentals.md",
-            "visibility": "d-none d-lg-block"
+            "name": "Jekyll Blog Themes",
+            "language": "Ruby on Rails",
+            "image": "projects/jekyll.jpg",
+            "date": "November 2020",
+            "description": "Several different themes I've created for the JAMstack Jekyll generator from scratch, focusing on performance and accessibility while still maintaining good design principles, and free to use!",
+            "hyperlink": "https://purelog.herokuapp.com/",
+            "source": "https://github.com/brennanbrown/purelog",
+            "docs": "https://watery.netlify.app/documentation/",
+            "visibility": "d-block"
         },
         {
             "name": "Tkinter Weather App",
@@ -86,7 +86,7 @@
             "hyperlink": "https://django.life",
             "source": "https://github.com/brennanbrown/django-project",
             "docs": "https://github.com/brennanbrown/django-project/blob/master/NOTES.md",
-            "visibility": "d-block"
+            "visibility": "d-none d-lg-block"
         },
         {
             "name": "Code Challenges",
