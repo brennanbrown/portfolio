@@ -50,7 +50,7 @@
             "image": "projects/jekyll.jpg",
             "date": "November 2020",
             "description": "Several different themes I've created for the JAMstack Jekyll generator from scratch, focusing on performance and accessibility while still maintaining good design principles, and free to use!",
-            "hyperlink": "https://purelog.herokuapp.com/",
+            "hyperlink": "https://purelog.netlify.app/",
             "source": "https://github.com/brennanbrown/purelog",
             "docs": "https://watery.netlify.app/documentation/",
             "visibility": "d-block"
