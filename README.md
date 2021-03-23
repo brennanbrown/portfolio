@@ -13,7 +13,7 @@
     <a href="https://github.com/brennanbrown/portfolio/blob/master/README.md""><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/brennanbrown/portfolio"">View Demo</a>
+    <b><a href="https://brennanbrown.ca">View Site</a></b>
     ·
     <a href="https://github.com/brennanbrown/portfolio/issues">Report Bug</a>
     ·
