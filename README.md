@@ -59,7 +59,7 @@
 
 ![Project Screenshot](https://i.postimg.cc/8khTrxpQ/Screen-Shot-2021-03-04-at-16-38-25.png "Screenshot of Portfolio")
 
-This is my portfolio, showcasing my work as a web developer and writer. Featuring my most recent coding projects, blog posts, and how best to contact me if you're interested in collaboration! It is a single-page design, with emphasis on typography and accessibility. It's based off of an older project I did, [Duck Project](https://github.com/brennanbrown/duck-project).
+This is my portfolio, showcasing my work as a web developer and writer. Featuring my most recent coding projects, blog posts, and how best to contact me if you're interested in collaboration! It is a single-page design, with emphasis on typography and accessibility. It's based off of an older project I did, [**Duck Project**](https://github.com/brennanbrown/duck-project).
 
 This website is built with:
 
