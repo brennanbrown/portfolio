@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/brennanbrown
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://brennanbrown.ca
+  * I am brennanbrown (https://keybase.io/brennanbrown) on keybase.
+  * I have a public key ASCguzBtWz3tGTdwhGnEZTCSRN5qx1TyD_1DRSbf5C8m0Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a0bb306d5b3ded1937708469c465309244de6ac754f20ffd434526dfe42f26d00a",
+      "host": "keybase.io",
+      "kid": "0120a0bb306d5b3ded1937708469c465309244de6ac754f20ffd434526dfe42f26d00a",
+      "uid": "7301a2c7c29f42bb58c8c2b67aeec319",
+      "username": "brennanbrown"
+    },
+    "merkle_root": {
+      "ctime": 1617691748,
+      "hash": "f08ab5603b4aff323fe99f69dd46da8f3592e8cc6cafe63424e990e80d09092d343980a9faaa27d4be69e126cb8b86ae28448893f2aa99d8a8336c6aa9d24c67",
+      "hash_meta": "67c60d6f4f111e554b57b6b89e935e00b3263be10e1c11b634f161dbc26b3dfa",
+      "seqno": 19556523
+    },
+    "service": {
+      "entropy": "VYyiUO0Ns0POD+bpy1v4Ayxx",
+      "hostname": "brennanbrown.ca",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.0"
+  },
+  "ctime": 1617691785,
+  "expire_in": 504576000,
+  "prev": "d65616c247c09028dd6729fd4b647a30317366fdb1dd68acbc6ab00605b9494b",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgoLswbVs97Rk3cIRpxGUwkkTeasdU8g/9Q0Um3+QvJtAKp3BheWxvYWTESpcCBsQg1lYWwkfAkCjdZyn9S2R6MDFzZv2x3WisvGqwBgW5SUvEIK3k2Mc7QHGAF1xZjsQF+z+WJVau7uTSo03qJkEJD/16AgHCo3NpZ8RAPK+RJYmf+57qC8rbDUZ8pkhjSxosI1A1MMcCdFFqewqlkGxUi+2RXyTpjXaJ4GTjbi5/ye8rQuZnQaTDKlizDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICpmtIBOoM9jdkalzFeLSvD9dJmm0pVhuxnWSPrxdKhNo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/brennanbrown
+
+==================================================================
