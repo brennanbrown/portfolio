@@ -83,7 +83,7 @@
             "image": "projects/django-project.jpg",
             "date": "July 2020",
             "description": "A full-stack project built to showcase and display the benefits of using Django for your project! Created with a PostgreSQL database, using Selenium for tests, and deployed in real-time. Under construction.",
-            "hyperlink": "https://django.life",
+            "hyperlink": "https://brennan-django.herokuapp.com",
             "source": "https://github.com/brennanbrown/django-project",
             "docs": "https://github.com/brennanbrown/django-project/blob/master/NOTES.md",
             "visibility": "d-none d-lg-block"
